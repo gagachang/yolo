@@ -296,7 +296,7 @@ void draw_detections(image im, int num, float thresh, box *boxes, float **probs,
 
 	    /***********************************************************************************/
 
-            fprintf(out_fd, "%-30s\n", names[class]);
+            fprintf(out_fd, "%s\n", names[class]);
 
 	    /***********************************************************************************/
 
